@@ -35,3 +35,18 @@ header{
     font-size:35px;
     font-family:Garamond;
 }
+
+
+
+.main_image{
+    width:100%;
+    height:600px;
+    position:absolute;
+    top:120px;
+    left:0px;
+    background-color: blanchedalmond;
+}
+
+.main_image>img{
+    width:100%;
+}
