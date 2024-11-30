@@ -1,0 +1,9 @@
+.main{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    position:relative;
+    height:1200px;
+    background-color: aliceblue;
+}
