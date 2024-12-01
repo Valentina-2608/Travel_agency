@@ -4,7 +4,7 @@
     min-width: 50%;
     margin:0 auto;
     position:relative;
-    height:2000px;
+    height:2230px;
     background-color: aliceblue;
 }
 
@@ -217,4 +217,19 @@ nav li>a:hover{
     font-size:44px;
     font-family: Garamond;
     text-align: center;
+}
+
+
+footer{
+    width:90%;
+    height:30px;
+    padding-top: 30px;
+    padding-bottom:25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position:absolute;
+    top:2140px;
+    left:0px;
+    background-color: #12114F;
+    color:white;
 }
