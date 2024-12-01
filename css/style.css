@@ -117,4 +117,29 @@ nav li>a:hover{
     text-decoration:none;
     color:#12114F;
 }
-    
+
+
+.caption1{
+    width:100%;
+    height:20px;
+    position: absolute;
+    top:850px;
+    left:0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:darkred;
+    font-size:44px;
+    font-style: bold;
+    font-family:Garamond;
+
+}
+
+.destination_countries{
+    width:100%;
+    height:500px;
+    position:absolute;
+    top:950px;
+    left:0px;
+    background-color: darkgray;
+}
