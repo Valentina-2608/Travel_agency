@@ -49,6 +49,28 @@ header{
     width:100%;
 }
 
+.rectangle1{
+    width:45%;
+    height:120px;
+    background-color: white;
+    opacity:0.5;
+    position:absolute;
+    top: 300px;
+    left:10%;
+}
+
+.text1{
+    width:45%;
+    height:120px;
+    position:absolute;
+    top: 330px;
+    left:10%;
+    color:darkblue;
+    font-size:44px;
+    font-family: Garamond;
+    text-align: center;
+}
+
 
 nav{
     width:100%;
