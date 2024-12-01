@@ -4,7 +4,7 @@
     min-width: 50%;
     margin:0 auto;
     position:relative;
-    height:1200px;
+    height:2000px;
     background-color: aliceblue;
 }
 
@@ -141,5 +141,23 @@ nav li>a:hover{
     position:absolute;
     top:950px;
     left:0px;
-    background-color: darkgray;
+}
+
+.destination_country{
+    width:21%;
+    height:200px;
+    float:left;
+    margin:2%;
+}
+
+.destination_country>img{
+    width:100%;
+}
+
+
+.country_caption{
+    width:100%;
+    font-size:20px;
+    margin-top:10px;
+    text-align: center;
 }
