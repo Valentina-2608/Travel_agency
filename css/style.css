@@ -258,3 +258,12 @@ footer{
 .main_image_country>img{
     width:100%;
 }
+
+.list_tours{
+    width:100%;
+    height:800px;
+    background-color: cyan;
+    position:absolute;
+    top:770px;
+    left:0px;
+}
