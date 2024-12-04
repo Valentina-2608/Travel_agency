@@ -233,3 +233,14 @@ footer{
     background-color: #12114F;
     color:white;
 }
+
+
+.country_main{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    position:relative;
+    height:1800px;
+    background-color: aliceblue;
+}
