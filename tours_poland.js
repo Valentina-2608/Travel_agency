@@ -1,0 +1,47 @@
+let tours = [
+    {
+        "id":1,
+        "image":"img/krakow_2.jpg",
+        "caption":"Weekend in Krakow",
+        "days":"3",
+        "moves":"1",
+        "towns":"Krakow, Zakopane, Wieliczka",
+        "price":"85 Euro",
+    },
+    {
+        "id":2,
+        "image":"img/warsaw.png",
+        "caption":"Krakow and Warsaw",
+        "days":"3",
+        "moves":"no",
+        "towns":"Krakow, Warsaw",
+        "price":"130 Euro",
+    },
+    {
+        "id":3,
+        "image":"img/gdansk.jpg",
+        "caption":"Polish jazz",
+        "days":"4",
+        "moves":"no",
+        "towns":"Lublin, Warsaw, Gdansk, Krakow",
+        "price":"200 Euro",
+    },
+    {
+        "id":4,
+        "image":"img/zakopane.jpg",
+        "caption":"Morske Oko, Zakopane, Krakow",
+        "days":"3",
+        "moves":"no",
+        "towns":"Zakopane, Krakow",
+        "price":"155 Euro",
+    },
+    {
+        "id":5,
+        "image":"img/prague_1.jpg",
+        "caption":"My fabulous Prague",
+        "days":"4",
+        "moves":"2",
+        "towns":"Krakow, Prague, Karlovy Vary",
+        "price":"145 Euro",
+    }
+]
