@@ -43,5 +43,14 @@ let tours = [
         "moves":"2",
         "towns":"Krakow, Prague, Karlovy Vary",
         "price":"145 Euro",
+    },
+    {
+        "id":6,
+        "image":"img/karlovy_vary_1.jpg",
+        "caption":"The weekend of your dreams",
+        "days":"4",
+        "moves":"1",
+        "towns":"Krakow, Prague, Karlovy Vary",
+        "price":"150 Euro",
     }
 ]
