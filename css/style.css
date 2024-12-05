@@ -270,3 +270,64 @@ footer{
 }
 
 
+.tour_block{
+    width:30%;
+    height:470px;
+    margin-left:3%;
+    margin-top:30px;
+    background-color: white;
+    float:left;
+    border:1px solid lightslategrey;
+}
+
+.tour_block>img{
+    width:100%;
+    height:250px;
+}
+
+.tour_info{
+    width:50%;
+    height: 200px;
+    float:left;
+    margin-left:5%;
+}
+
+.tour_caption{
+    width:100%;
+    height:20px;
+    color:#12114F;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.tour_days, .tour_moves, .tour_towns, .tour_price{
+    width:90%;
+    height:20px;
+    color:black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left:5%;
+    font-size: 18px;
+}
+
+
+.tour_btn{
+    width:30%;
+    padding:5px;
+    background-color:darkred;
+    color:white;
+    font-size:16px;
+    border:none;
+    border-radius: 5px;
+    margin-left:33%;
+    margin-top: 10px;
+}
+
+.tour_btn:hover{
+    cursor: pointer;
+}
+
