@@ -27,7 +27,7 @@ function createTour(elem, elem_image, elem_caption, elem_days, elem_moves, elem_
 	/* Add moves */
 	let tour_moves = document.createElement('div');
 	tour_moves.classList.add('tour_moves');
-    tour_moves.innerHTML = 'Moves: '+elem_moves;
+    tour_moves.innerHTML = 'Night moves: '+elem_moves;
 	tour_block.appendChild(tour_moves);
 
 	/* Add towns */
