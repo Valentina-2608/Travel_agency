@@ -32,7 +32,7 @@ let tours = [
         "caption":"Weekend in Liguria",
         "days":"5",
         "moves":"2",
-        "towns":"Venice, Genoa, Florence, Cinque Terre",
+        "towns":"Genoa, Florence, Cinque Terre",
         "price":"221 Euro",
     },
     {
