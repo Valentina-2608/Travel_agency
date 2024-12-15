@@ -29,7 +29,7 @@ let tours = [
     {
         "id":4,
         "image":"img/prague_2.jpg",
-        "caption":"Weekend in europe",
+        "caption":"Weekend in Europe",
         "days":"4",
         "moves":"1",
         "towns":"Krakow, Prague, Vienna, Budapest",
