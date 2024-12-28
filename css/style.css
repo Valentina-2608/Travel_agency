@@ -427,3 +427,39 @@ footer{
     top:0px;
     left:30%;
 }
+
+.category1{
+    width:90%;
+    height:550px;
+    background-color:yellow;
+    position: absolute;
+    top:30px;
+    left:5%;
+}
+
+
+.category1_caption{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+    color:#12114F;
+}
+
+
+.category1 p{
+    margin-left:5%;
+    font-size:18px;
+    color:grey;
+    margin-top:20px;
+}
+.category1 p:hover{
+    cursor:pointer;
+    color:black;
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
