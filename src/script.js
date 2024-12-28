@@ -1,6 +1,6 @@
 /* Create new element */
 
-function createTour(elem, elem_image, elem_caption, elem_days, elem_moves, elem_towns, elem_price, elem_button){
+function createTour(elem, elem_image, elem_caption, elem_days, elem_moves, elem_countries,elem_towns, elem_price, elem_button){
 	let parent = document.querySelector('.list_tours');	
 	let tour_block = document.createElement('div');
 	tour_block.classList.add('tour_block');
@@ -30,6 +30,12 @@ function createTour(elem, elem_image, elem_caption, elem_days, elem_moves, elem_
     tour_moves.innerHTML = 'Night moves: '+elem_moves;
 	tour_block.appendChild(tour_moves);
 
+	/* Add countries */
+	let tour_countries = document.createElement('div');
+	tour_countries.classList.add('tour_countries');
+    tour_countries.innerHTML = 'Countries: '+elem_towns;
+	tour_block.appendChild(tour_countries);
+
 	/* Add towns */
 	let tour_towns = document.createElement('div');
 	tour_towns.classList.add('tour_towns');
@@ -53,5 +59,5 @@ function createTour(elem, elem_image, elem_caption, elem_days, elem_moves, elem_
 
 
 for(let tour of tours){
-	createTour(tour, tour.image, tour.caption, tour.days, tour.moves, tour.towns, tour.price, tour.button)
+	createTour(tour, tour.image, tour.caption, tour.days, tour.moves, tour.countries, tour.towns, tour.price, tour.button)
 }
