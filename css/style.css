@@ -409,3 +409,21 @@ footer{
     left:0px;
     background-color: beige;
 }
+
+.block_search{
+    width:30%;
+    height:1100px;
+    background-color: white;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.block_tours{
+    width:70%;
+    height:1100px;
+    background-color:azure;
+    position: absolute;
+    top:0px;
+    left:30%;
+}
