@@ -463,3 +463,36 @@ footer{
     font-weight: bold;
     text-decoration: underline;
 }
+
+
+
+.category2{
+    width:90%;
+    height:450px;
+    background-color:lightgreen;
+    position: absolute;
+    top:590px;
+    left:5%;
+}
+
+
+.category2_caption{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+    color:#12114F;
+}
+
+
+.category2 p{
+    margin-left:5%;
+    font-size:18px;
+    color:grey;
+    margin-top:20px;
+}
+.category2 p:hover{
+    cursor:pointer;
+    color:black;
+}
