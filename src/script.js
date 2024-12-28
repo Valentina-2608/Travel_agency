@@ -33,7 +33,7 @@ function createTour(elem, elem_image, elem_caption, elem_days, elem_moves, elem_
 	/* Add countries */
 	let tour_countries = document.createElement('div');
 	tour_countries.classList.add('tour_countries');
-    tour_countries.innerHTML = 'Countries: '+elem_towns;
+    tour_countries.innerHTML = 'Countries: '+elem_countries;
 	tour_block.appendChild(tour_countries);
 
 	/* Add towns */
