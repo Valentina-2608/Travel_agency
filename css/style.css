@@ -384,3 +384,18 @@ footer{
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+
+
+/* tours.html */
+
+.main2{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    position:relative;
+    height:2000px;
+    background-color: aliceblue;
+}
