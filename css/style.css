@@ -419,10 +419,12 @@ footer{
 
 .block_tours{
     width:80%;
-    height:1280px;
+    height:1650px;
     position: absolute;
     top:0px;
     left:20%;
+    background-color: coral;
+    overflow: hidden;
 }
 
 .block_tours .tour_days, .tour_moves, .tour_towns, .tour_price, .tour_countries{
