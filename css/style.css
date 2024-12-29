@@ -410,7 +410,7 @@ footer{
 }
 
 .block_search{
-    width:30%;
+    width:20%;
     height:1280px;
     position: absolute;
     top:0px;
@@ -418,11 +418,33 @@ footer{
 }
 
 .block_tours{
-    width:70%;
+    width:80%;
     height:1280px;
     position: absolute;
     top:0px;
-    left:30%;
+    left:20%;
+}
+
+.block_tours .tour_days, .tour_moves, .tour_towns, .tour_price, .tour_countries{
+    width:90%;
+    height:20px;
+    color:black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left:5%;
+    font-size: 15px;
+}
+
+.block_tours .tour_btn{
+    width:30%;
+    padding:7px;
+    background-color:darkred;
+    color:white;
+    font-size:14px;
+    border:none;
+    border-radius: 5px;
+    margin-left:33%;
+    margin-top: 15px;
 }
 
 .category1{
