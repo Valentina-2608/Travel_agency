@@ -496,3 +496,36 @@ footer{
     cursor:pointer;
     color:black;
 }
+
+
+
+.category3{
+    width:90%;
+    height:200px;
+    background-color:lemonchiffon;
+    position: absolute;
+    top:1080px;
+    left:5%;
+}
+
+
+.category3_caption{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+    color:#12114F;
+}
+
+
+.category3 p{
+    margin-left:5%;
+    font-size:18px;
+    color:grey;
+    margin-top:20px;
+}
+.category3 p:hover{
+    cursor:pointer;
+    color:black;
+}
