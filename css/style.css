@@ -428,7 +428,6 @@ footer{
 .category1{
     width:90%;
     height:580px;
-    background-color:yellow;
     position: absolute;
     top:30px;
     left:5%;
@@ -448,7 +447,7 @@ footer{
 .category1 p{
     margin-left:5%;
     font-size:18px;
-    color:grey;
+    color:#404040;
     margin-top:20px;
 }
 .category1 p:hover{
@@ -466,7 +465,6 @@ footer{
 .category2{
     width:90%;
     height:450px;
-    background-color:lightgreen;
     position: absolute;
     top:620px;
     left:5%;
@@ -486,7 +484,7 @@ footer{
 .category2 p{
     margin-left:5%;
     font-size:18px;
-    color:grey;
+    color:#404040;
     margin-top:20px;
 }
 .category2 p:hover{
@@ -499,7 +497,6 @@ footer{
 .category3{
     width:90%;
     height:200px;
-    background-color:lemonchiffon;
     position: absolute;
     top:1080px;
     left:5%;
@@ -519,7 +516,7 @@ footer{
 .category3 p{
     margin-left:5%;
     font-size:18px;
-    color:grey;
+    color:#404040;
     margin-top:20px;
 }
 .category3 p:hover{
