@@ -447,6 +447,18 @@ footer{
     margin-top: 15px;
 }
 
+.block_tours .tour_caption{
+    width:100%;
+    height:20px;
+    color:#12114F;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 .category1{
     width:90%;
     height:580px;
