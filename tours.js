@@ -73,7 +73,7 @@ let tours = [
     {
         "id":9,
         "image":"img/paris_4.jpg",
-        "caption":"Wonderful vacion in France",
+        "caption":"Wonderful vacions in France",
         "days":"7",
         "moves":"2",
         "countries":"Germany, France, Czechia",
@@ -373,7 +373,7 @@ let tours = [
     {
         "id":39,
         "image":"img/dresden_1.jpg",
-        "caption":"Vacation in the Netherlands",
+        "caption":"Vacations in the Netherlands",
         "days":"7",
         "moves":"no",
         "countries":"Germany, Netherlands",
@@ -503,7 +503,7 @@ let tours = [
     {
         "id":52,
         "image":"img/hamburg_1.jpg",
-        "caption":"Unforgettable vacation",
+        "caption":"Unforgettable vacations",
         "days":"6",
         "moves":"no",
         "countries":"Germany",
