@@ -61,3 +61,38 @@ function createTour(elem, elem_image, elem_caption, elem_days, elem_moves, elem_
 for(let tour of tours){
 	createTour(tour, tour.image, tour.caption, tour.days, tour.moves, tour.countries, tour.towns, tour.price, tour.button)
 }
+
+
+let btn_load=document.getElementById('btn_load');
+let for_button=document.querySelector('.for_button')
+let main2=document.querySelector('.main2');
+let block1=document.querySelector('.block1');
+let block_tours=document.querySelector('.block_tours');
+btn_load.addEventListener('click', loadTours);
+function loadTours(){
+	let height1 = main2.offsetHeight;
+    let newHeight1 = height1 + 540;
+    main2.style.height = newHeight1+ 'px';
+
+	let height2 = block1.offsetHeight;
+    let newHeight2 = height2 + 540;
+    block1.style.height = newHeight2 + 'px';
+
+	let height3 = block_tours.offsetHeight;
+    let newHeight3 = height3 + 541;
+    block_tours.style.height = newHeight3 + 'px';
+
+	let pr_top = for_button.offsetTop;
+	let new_top = pr_top + 540;
+	for_button.style.top = new_top + 'px';
+
+	window.scrollBy(0, 542);
+	let newHeight4=block1.offsetHeight;
+	console.log(newHeight4);
+	if (newHeight4 > 12180)
+	{
+		btn_load.disabled=true;
+		btn_load.style.backgroundColor='gray';
+	}
+
+}
