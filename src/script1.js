@@ -141,3 +141,27 @@ for(let i=0; i< tours_day.length; i++){
 			}
 		}
 	}
+
+
+
+	let tours_move=document.querySelectorAll('.tour_move');
+	for(let i=0; i< tours_move.length; i++){
+		tours_move[i].addEventListener('click',showToursMoves);
+	}
+	
+	
+	
+		function showToursMoves(event){
+			let move=event.target.innerHTML;
+			let number_move=move.substr(0,1)
+			let tours=document.querySelectorAll('.tour_block');
+			let regex = new RegExp(number_move);
+			for(let tour of tours){
+				let info_moves=tour.children[3].innerHTML;
+				if (regex.test(info_moves)){
+					tour.style.display='block';
+				}else{
+					tour.style.display='none';
+				}
+			}
+		}	
