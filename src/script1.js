@@ -116,3 +116,28 @@ function showTours(event){
 		}
 	}
 }
+
+
+
+let tours_day=document.querySelectorAll('.tour_day');
+for(let i=0; i< tours_day.length; i++){
+	tours_day[i].addEventListener('click',showToursDays);
+}
+
+
+
+	function showToursDays(event){
+		let day=event.target.innerHTML;
+		let number_day=day.substr(0,1)
+		console.log(number_day);
+		let tours=document.querySelectorAll('.tour_block');
+		let regex = new RegExp(number_day);
+		for(let tour of tours){
+			let info_days=tour.children[2].innerHTML;
+			if (regex.test(info_days)){
+				tour.style.display='block';
+			}else{
+				tour.style.display='none';
+			}
+		}
+	}
