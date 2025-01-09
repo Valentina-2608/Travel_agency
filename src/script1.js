@@ -96,3 +96,23 @@ function loadTours(){
 	}
 
 }
+
+let tours_country=document.querySelectorAll('.tour_country');
+for(let i=0; i< tours_country.length; i++){
+	tours_country[i].addEventListener('click',showTours);
+	}
+
+function showTours(event){
+	let country=event.target.innerHTML;
+	console.log(country);
+	let tours=document.querySelectorAll('.tour_block');
+	let regex = new RegExp(country);
+	for(let tour of tours){
+		let info_countries=tour.children[4].innerHTML;
+		if (regex.test(info_countries)){
+			tour.style.display='block';
+		}else{
+			tour.style.display='none';
+		}
+	}
+}
