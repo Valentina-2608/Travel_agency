@@ -111,13 +111,31 @@ function showTours(event){
 		let info_countries=tour.children[4].innerHTML;
 		if (regex.test(info_countries)){
 			tour.style.display='block';
-		}else{
+			main2.style.height='auto';
+			block1.style.height='auto';
+			block_tours.style.marginBottom='30px';
+			block_tours.style.height='auto';
+			btn_load.style.visibility='hidden';
+		}
+		else{
 			tour.style.display='none';
 		}
+		
 	}
 }
 
-
+let all_coutries=document.querySelector('.all_countries');
+all_coutries.addEventListener('click', showAllTours);
+function showAllTours(){
+	let tours=document.querySelectorAll('.tour_block');
+	for(let tour of tours){
+		main2.style.height='2500px';
+		block1.style.height='1720px';
+		block_tours.style.height='1650px';
+		btn_load.style.visibility='visible';
+		tour.style.display='block';
+	}
+}
 
 let tours_day=document.querySelectorAll('.tour_day');
 for(let i=0; i< tours_day.length; i++){
