@@ -173,15 +173,20 @@ for(let i=0; i< tours_day.length; i++){
 	
 	
 	
-		function showToursMoves(event){
-			let move=event.target.innerHTML;
-			let number_move=move.substr(0,1)
-			let tours=document.querySelectorAll('.tour_block');
-			let regex = new RegExp(number_move);
-			for(let tour of tours){
-				let info_moves=tour.children[3].innerHTML;
-				if (regex.test(info_moves)){
+	function showToursMoves(event){
+		let move=event.target.innerHTML;
+		let number_move=move.substr(0,1)
+		let tours=document.querySelectorAll('.tour_block');
+		let regex = new RegExp(number_move);
+		for(let tour of tours){
+			let info_moves=tour.children[3].innerHTML;
+			if (regex.test(info_moves)){
 					tour.style.display='block';
+					main2.style.height='auto';
+					block1.style.height='auto';
+					block_tours.style.marginBottom='30px';
+					block_tours.style.height='auto';
+					btn_load.style.visibility='hidden'
 				}else{
 					tour.style.display='none';
 				}
