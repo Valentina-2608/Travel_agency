@@ -655,3 +655,23 @@ footer{
     top:0px;
     left:42%;
 }
+
+.container2_caption{
+    width:100%;
+    height:30px;
+    position: absolute;
+    top:45px;
+    left:0px;
+    font-size:32px;
+    color:#415A77;
+    text-align: center;
+}
+
+.line1{
+    width:80%;
+    height:1px;
+    background-color:#C6BDB6;
+    position:absolute;
+    top:100px;
+    left:10%;
+}
