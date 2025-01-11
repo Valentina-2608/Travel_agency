@@ -647,3 +647,11 @@ footer{
     top:10px;
     left:10%;
 }
+
+.container2{
+    width:58%;
+    height:820px;
+    position:absolute;
+    top:0px;
+    left:42%;
+}
