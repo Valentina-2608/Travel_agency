@@ -107,6 +107,7 @@ function showTours(event){
 	console.log(country);
 	let tours=document.querySelectorAll('.tour_block');
 	let regex = new RegExp(country);
+	let regex1 = /Norway/;
 	for(let tour of tours){
 		let info_countries=tour.children[4].innerHTML;
 		if (regex.test(info_countries)){
@@ -120,7 +121,6 @@ function showTours(event){
 		else{
 			tour.style.display='none';
 		}
-		
 	}
 }
 
