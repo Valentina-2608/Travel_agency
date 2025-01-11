@@ -153,6 +153,11 @@ for(let i=0; i< tours_day.length; i++){
 			let info_days=tour.children[2].innerHTML;
 			if (regex.test(info_days)){
 				tour.style.display='block';
+				main2.style.height='auto';
+				block1.style.height='auto';
+				block_tours.style.marginBottom='30px';
+				block_tours.style.height='auto';
+				btn_load.style.visibility='hidden';
 			}else{
 				tour.style.display='none';
 			}
