@@ -675,3 +675,12 @@ footer{
     top:100px;
     left:10%;
 }
+
+#form_sign{
+    width:70%;
+    height:500px;
+    position:absolute;
+    top:120px;
+    left:14%;
+    background-color: bisque;
+}
