@@ -746,3 +746,22 @@ footer{
 #btn_clear:hover{
 	cursor: pointer;
 }
+
+input[type="email"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+input[type="password"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+input:focus{
+    outline: none;
+    border:1px solid darkred;
+}
