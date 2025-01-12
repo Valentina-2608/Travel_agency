@@ -765,3 +765,40 @@ input:focus{
     outline: none;
     border:1px solid darkred;
 }
+
+
+.container2_text{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:710px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:#415A77;
+}
+
+
+.container2_text>a{
+    color:#233048;
+}
+
+
+
+.container2_link{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:750px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container2_link>a{
+    color:#233048;
+}
