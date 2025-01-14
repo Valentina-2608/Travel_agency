@@ -848,3 +848,30 @@ input:focus{
     border-radius: 10px;
     border:5px solid lightgray;
 }
+
+
+#form_login{
+    width:80%;
+    height:260px;
+    border-radius:20px;
+    position:absolute;
+    top:120px;
+    left:10%;
+}
+
+#form_login>label{
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+}
+
+#form_login>input[type="text"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+#form_login>input::placeholder{
+    color:gray;
+}
