@@ -835,3 +835,16 @@ input:focus{
     margin:0 auto;
     position:relative;
 }
+
+
+
+.container3{
+    width:50%;
+    height:500px;
+    background-color:#12114F;
+    position:absolute;
+    top:100px;
+    left:25%;
+    border-radius: 10px;
+    border:5px solid lightgray;
+}
