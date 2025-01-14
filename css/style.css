@@ -935,3 +935,41 @@ input:focus{
     top:20px;
     left:0px;
 }
+
+
+.container3_text{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:420px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:black;
+}
+
+
+.container3_text>a{
+    color:#233048;
+}
+
+
+
+.container3_link{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:460px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container3_link>a{
+    color:#233048;
+}
+
