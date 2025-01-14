@@ -825,3 +825,13 @@ input:focus{
     display: none;
 }
 
+/* Log In */
+
+.main4{
+    width:100%;
+    max-width:1200px;
+    height:700px;
+    background-color:aliceblue;
+    margin:0 auto;
+    position:relative;
+}
