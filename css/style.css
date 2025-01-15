@@ -1013,16 +1013,17 @@ input:focus{
 
 
 .container4_block1{
-    width:30%;
-    height:320px;
+    width:25%;
+    height:300px;
     position:absolute;
-    top:40px;
-    left:40px;
+    top:20px;
+    left:20px;
+    background-color: blanchedalmond;
 }
 
 
 .container4_block1>img{
-    width:88%;
+    width:90%;
 }
 
 
