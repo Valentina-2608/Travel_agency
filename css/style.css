@@ -1024,3 +1024,14 @@ input:focus{
 .container4_block1>img{
     width:88%;
 }
+
+
+
+.container4_block2{
+    width:60%;
+    height:720px;
+    position:absolute;
+    background-color:lightsalmon;
+    top:40px;
+    left:35%;
+}
