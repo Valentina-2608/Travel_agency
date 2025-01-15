@@ -1018,7 +1018,6 @@ input:focus{
     position:absolute;
     top:20px;
     left:20px;
-    background-color: blanchedalmond;
 }
 
 
@@ -1029,12 +1028,12 @@ input:focus{
 
 
 .container4_block2{
-    width:60%;
+    width:65%;
     height:720px;
     position:absolute;
     background-color:lightsalmon;
     top:40px;
-    left:35%;
+    left:30%;
 }
 
 
