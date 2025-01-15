@@ -1035,3 +1035,45 @@ input:focus{
     top:40px;
     left:35%;
 }
+
+
+.container4_block2_caption{
+    width:60%;
+    height:30px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-align:center;
+    font-size:34px;
+    font-style: italic;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container4_block2_button{
+    width:40%;
+    height:50px;
+    position: absolute;
+    top:0px;
+    left:60%;
+}
+
+#show_orders{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color:#12114F;
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    top:10px;
+    left:10%;
+}
+
+#show_orders:hover{
+    cursor: pointer;
+}
