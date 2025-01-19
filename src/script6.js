@@ -95,3 +95,12 @@ import { getFirestore, addDoc, collection} from "https://www.gstatic.com/firebas
     clientEmailElem.value = '';
     clientPhoneElem.value = '';
   }
+
+
+  
+  let close_modal = document.querySelector('.close_modal');
+  close_modal.addEventListener('click', closeForm);
+  function closeForm(){
+    let block_form = document.querySelector('.block_form');
+    block_form.style.display = 'none';
+  }
