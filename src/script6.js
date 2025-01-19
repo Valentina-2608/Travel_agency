@@ -83,3 +83,15 @@ import { getFirestore, addDoc, collection} from "https://www.gstatic.com/firebas
 
 
   }
+
+
+
+
+  let btn_clear = document.getElementById('btn_clear');
+  btn_clear.addEventListener('click', clearForm);
+  function clearForm(){
+    clientNameElem.value = '';
+    clientSurnameElem.value = '';
+    clientEmailElem.value = '';
+    clientPhoneElem.value = '';
+  }
