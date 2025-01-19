@@ -1077,3 +1077,143 @@ input:focus{
 #show_orders:hover{
     cursor: pointer;
 }
+
+
+
+.block_form{
+    width:50%;
+    height:700px;
+    position:absolute;
+    top: 55%;
+    left: 25%;
+    background-color: white;
+    border-radius:10px;
+    border:2px solid darkgray;
+    display: none;
+}
+
+
+.tour_caption1{
+    width:90%;
+    height:20px;
+    position:absolute;
+    top:10px;
+    left:5%;
+    font-size:22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:darkred;
+    font-weight: bold;
+}
+
+.tour_price1{
+    width:90%;
+    height:30px;
+    position:absolute;
+    top:60px;
+    left:5%;
+    font-size:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.block_form_caption{
+    width:100%;
+    height:20px;
+    text-align: center;
+    position: absolute;
+    top:130px;
+    left:0px;
+    font-size:20px;
+    color:grey;
+}
+
+#form_order{
+    width:90%;
+    height:450px;
+    position: absolute;
+    top:180px;
+    left:5%;
+}
+
+
+#form_order>label{
+    font-size:18px;
+    font-weight:bold;
+    color:#233048;
+}
+
+#form_order input[type="text"]{
+	width:90%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+#form_order input[type="email"]{
+	width:90%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+
+#form_order input[type="tel"]{
+	width:90%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+
+#form_order input::placeholder{
+    color:gray;
+}
+
+
+
+.form_buttons{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    position:absolute;
+    top:390px;
+    left:0px;
+}
+
+
+#btn_submit{
+	width:20%;
+	padding:1%;
+    background-color:darkred;
+    color:white;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:20%;
+}
+
+#btn_submit:hover{
+	cursor: pointer;
+}
+
+#btn_clear{
+	width:20%;
+	padding:1%;
+	background-color:#12114F;
+    border:none;
+	font-weight: bold;
+    color:white;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:60%;
+}
+
+#btn_clear:hover{
+	cursor: pointer;
+}
