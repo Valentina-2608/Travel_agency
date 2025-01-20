@@ -42,6 +42,34 @@
 			
 				
 		</div>
+		<div class="block_form">
+			<span class="close_modal">&times;</span>
+			<div class="tour_caption1"></div>
+			<div class="tour_price1"></div>
+			<div class="block_form_caption">Please fill out the form and we will contact you</div>
+			<form id="form_order">
+				<div class="form_input">
+					<p><label for="client_name">Name</label></p>
+					<p><input type="text" placeholder="Enter your name" name="name" id="client_name" required autocomplete="on"></p>
+				</div>
+				<div class="form_input">
+					<p><label for="client_surname">Surname</label></p>
+					<p><input type="text" placeholder="Enter your surname" name="surname" id="client_surname" required autocomplete="on"></p>
+				</div>
+				<div class="form_input">
+					<p><label for="client_email">Email</label></p>
+					<p><input type="email" placeholder="Enter email" name="email" id="client_email" required autocomplete="off"></p>
+				</div>
+				<div class="form_input">
+					<p><label for="client_phone">Phone</label></p>
+					<p><input type="tel" placeholder="Enter phone" name="phone" id="client_phone" required autocomplete="off"></p>
+				</div>
+				<div class="form_buttons">
+                    <button id="btn_submit">Submit</button>
+                    <button id="btn_clear">Clear</button>
+                </div>
+			</form>
+		</div>
     </div>
     <script src="src/script.js"></script>
 </body>		
