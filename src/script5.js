@@ -22,3 +22,49 @@ import { getFirestore, collection, onSnapshot} from "https://www.gstatic.com/fir
   const db = getFirestore(app);
   const dbRef = collection(db, 'Orders');
   
+  let agent_orders = document.querySelector('.agent_orders');
+  let show_orders = document.getElementById('show_orders');
+  show_orders.addEventListener('click', showAllOrders);
+
+  function showAllOrders(){
+    onSnapshot(dbRef, docsSnap => {
+      docsSnap.forEach(doc => {
+        let new_order = document.createElement('div');
+        new_order.classList.add('new_order')
+       
+        let new_order_caption = document.createElement('div');
+        new_order_caption.classList.add('new_order_caption')
+        new_order_caption.innerHTML = doc.data().caption;
+
+        let new_order_price = document.createElement('div');
+        new_order_price.classList.add('new_order_price')
+        new_order_price.innerHTML = doc.data().price;
+
+        let new_order_name = document.createElement('div');
+        new_order_name.classList.add('new_order_name')
+        new_order_name.innerHTML = doc.data().name;
+
+        let new_order_surname = document.createElement('div');
+        new_order_surname.classList.add('new_order_surname')
+        new_order_surname.innerHTML = doc.data().surname;
+
+        let new_order_phone = document.createElement('div');
+        new_order_phone.classList.add('new_order_phone')
+        new_order_phone.innerHTML = doc.data().phone;
+
+        let new_order_email = document.createElement('div');
+        new_order_email.classList.add('new_order_email')
+        new_order_email.innerHTML = doc.data().email;
+
+        new_order.appendChild(new_order_caption);
+        new_order.appendChild(new_order_price);
+        new_order.appendChild(new_order_name);
+        new_order.appendChild(new_order_surname);
+        new_order.appendChild(new_order_phone);
+        new_order.appendChild(new_order_email);
+        agent_orders.appendChild(new_order);
+  
+      })
+  
+    })
+  }
