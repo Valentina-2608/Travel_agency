@@ -1,4 +1,4 @@
-/* Add orders to FireStore DataBase */
+/* Show orders from FireStore DataBase */
 
 // Import the functions you need from the SDKs you need
 import { initializeApp} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
