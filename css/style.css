@@ -1018,6 +1018,7 @@ input:focus{
     position:absolute;
     top:40px;
     left:20px;
+    z-index:5;
 }
 
 
@@ -1028,13 +1029,15 @@ input:focus{
 
 
 .container4_block2{
-    width:75%;
+    width:90%;
     height:720px;
     position:absolute;
     background-color:lightsalmon;
     top:40px;
-    left:20%;
+    left:5%;
+    z-index:4;
 }
+
 
 
 .container4_block2_caption{
