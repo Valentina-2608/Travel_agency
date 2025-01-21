@@ -1013,10 +1013,10 @@ input:focus{
 
 
 .container4_block1{
-    width:25%;
+    width:17%;
     height:300px;
     position:absolute;
-    top:20px;
+    top:40px;
     left:20px;
 }
 
@@ -1028,12 +1028,12 @@ input:focus{
 
 
 .container4_block2{
-    width:65%;
+    width:75%;
     height:720px;
     position:absolute;
     background-color:lightsalmon;
     top:40px;
-    left:30%;
+    left:20%;
 }
 
 
