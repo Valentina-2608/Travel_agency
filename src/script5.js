@@ -2,7 +2,7 @@
 
 // Import the functions you need from the SDKs you need
 import { initializeApp} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-import { getFirestore, addDoc, collection} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
+import { getFirestore, collection, onSnapshot} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
 
  // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
@@ -20,4 +20,5 @@ import { getFirestore, addDoc, collection} from "https://www.gstatic.com/firebas
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
+  const dbRef = collection(db, 'Orders');
   
