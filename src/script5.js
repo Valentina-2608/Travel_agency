@@ -21,30 +21,3 @@ import { getFirestore, addDoc, collection} from "https://www.gstatic.com/firebas
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
   
-let tour_btns = document.querySelectorAll('.tour_btn');
-for(let i=0; i< tour_btns.length; i++){
-  tour_btns[i].addEventListener('click',addOrder);
-}
-
-    /* Add orders */
-
-function addOrder(event){
-  let tour_btn=event.target;
-  let tour_btn_parent = tour_btn.parentElement;
-  let tour_caption = tour_btn_parent.children[1].innerHTML;
-  let tour_price = tour_btn_parent.children[6].innerHTML;
-  const dbRef = collection(db, 'Orders')
-    const data = {
-        caption: tour_caption,
-        price: tour_price
-      };
-     addDoc(dbRef, data)
-    .then(()=>{
-      alert('Order was added successfully')
-    })
-    .catch((error)=>{
-      alert('Error')
-    });
-
-}
-
