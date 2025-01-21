@@ -1164,6 +1164,13 @@ input:focus{
 }
 
 
+.agent_orders{
+    width:100%;
+    position:absolute;
+    top:270px;
+    left:0%;
+    background-color:white;
+}
 
 
 
