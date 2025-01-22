@@ -220,6 +220,27 @@ nav li>a:hover{
 }
 
 
+.text3{
+    width:20%;
+    height:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:absolute;
+    top: 1780px;
+    left:65%;
+    background-color:darkred;
+    color:white;
+    font-size:34px;
+    font-family: Garamond;
+    text-align: center;
+}
+
+.text3>a{
+    color:white;
+    text-decoration: none;
+}
+
+
 footer{
     width:90%;
     height:30px;
