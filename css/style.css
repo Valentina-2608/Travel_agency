@@ -1422,3 +1422,53 @@ input:focus{
     top:750px;
     left:0px;
 }
+
+
+
+
+.block_contacts1{
+    width:50%;
+    max-width:1200px;
+    height:750px;
+    background-color:white;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.caption_1{
+    width:100%;
+    height:50px;
+    position: absolute;
+    top:60px;
+    left:0px;
+    font-size:30px;
+    color:darkred;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block_adress{
+    width:100%;
+    height:50px;
+    position: absolute;
+    top:130px;
+    left:0px;
+    font-size:24px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.block_image{
+    width:80%;
+    height:300px;
+    position:absolute;
+    top:200px;
+    left:10%;
+    background-color: chocolate;
+}
+
+.block_image>img{
+    width:100%;
+}
