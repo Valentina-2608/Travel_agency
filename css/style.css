@@ -592,12 +592,28 @@ footer{
 }
 
 
-.category4 p{
+.category4 .tour_price_low{
     margin-left:5%;
     font-size:18px;
     color:#404040;
     margin-top:20px;
 }
+
+.category4 .tour_price_high{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:25px;
+}
+
+.category4 .tour_price{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:19px;
+}
+
+
 .category4 p:hover{
     cursor:pointer;
     color:black;
