@@ -574,6 +574,38 @@ footer{
 }
 
 
+.category4{
+    width:90%;
+    height:200px;
+    position: absolute;
+    top:1280px;
+}
+
+
+.category4_caption{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+    color:#12114F;
+}
+
+
+.category4 p{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:20px;
+}
+.category4 p:hover{
+    cursor:pointer;
+    color:black;
+}
+
+
+
+
 .for_button{
     width:100%;
     height:70px;
