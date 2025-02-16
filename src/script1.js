@@ -139,6 +139,15 @@ function showAllTours(){
         tours_country.forEach(b => b.classList.remove('active'));
     	
     });
+	tours_day.forEach(tour_day => {
+        tours_day.forEach(b => b.classList.remove('active'));
+    	
+    });
+	tours_move.forEach(tour_move => {
+        tours_move.forEach(b => b.classList.remove('active'));
+    	
+    });
+
 }
 
 let tours_day=document.querySelectorAll('.tour_day');
@@ -206,6 +215,32 @@ for(let i=0; i< tours_day.length; i++){
             tours_country.forEach(b => b.classList.remove('active'));
             this.classList.add('active');
 			all_countries.classList.remove('active');
+			tours_day.forEach(b => b.classList.remove('active'));
+			tours_move.forEach(b => b.classList.remove('active'));
+            });
+		
+    });
+
+
+	tours_day.forEach(tour_day => {
+        tour_day.addEventListener('click', function() {
+            tours_day.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+			all_countries.classList.remove('active');
+			tours_country.forEach(b => b.classList.remove('active'));
+			tours_move.forEach(b => b.classList.remove('active'));
+            });
+		
+    });
+
+
+	tours_move.forEach(tour_move => {
+        tour_move.addEventListener('click', function() {
+            tours_move.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+			all_countries.classList.remove('active');
+			tours_day.forEach(b => b.classList.remove('active'));
+			tours_country.forEach(b => b.classList.remove('active'));
             });
 		
     });
