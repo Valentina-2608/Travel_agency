@@ -38,7 +38,7 @@ import { getFirestore, collection, onSnapshot} from "https://www.gstatic.com/fir
 
         let new_order_price = document.createElement('div');
         new_order_price.classList.add('new_order_price')
-        new_order_price.innerHTML = doc.data().price;
+        new_order_price.innerHTML = doc.data().price.substr(6,10);
 
         let new_order_name = document.createElement('div');
         new_order_name.classList.add('new_order_name')
