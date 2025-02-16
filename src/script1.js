@@ -123,8 +123,8 @@ function showTours(event){
 	}
 }
 
-let all_coutries=document.querySelector('.all_countries');
-all_coutries.addEventListener('click', showAllTours);
+let all_countries=document.querySelector('.all_countries');
+all_countries.addEventListener('click', showAllTours);
 function showAllTours(){
 	let tours=document.querySelectorAll('.tour_block');
 	for(let tour of tours){
@@ -133,7 +133,12 @@ function showAllTours(){
 		block_tours.style.height='1650px';
 		btn_load.style.visibility='visible';
 		tour.style.display='block';
+		all_countries.classList.add('active');
 	}
+	tours_country.forEach(tour_country => {
+        tours_country.forEach(b => b.classList.remove('active'));
+    	
+    });
 }
 
 let tours_day=document.querySelectorAll('.tour_day');
@@ -195,4 +200,12 @@ for(let i=0; i< tours_day.length; i++){
 
 
 
-	
+        
+    tours_country.forEach(tour_country => {
+        tour_country.addEventListener('click', function() {
+            tours_country.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+			all_countries.classList.remove('active');
+            });
+		
+    });
