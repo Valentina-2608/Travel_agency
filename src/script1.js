@@ -244,3 +244,7 @@ for(let i=0; i< tours_day.length; i++){
             });
 		
     });
+
+
+
+	
