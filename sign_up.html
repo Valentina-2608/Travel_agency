@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Sign Up</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="main3">
+        <div class="container1">
+            <div class="container1_caption">Create your travel agent account</div>
+            <div class="container1_image1">
+                <img src="img/img1.jpg">
+            </div>
+            <div class="container1_image2">
+                <img src="img/img2.jpg">
+            </div>
+
+        </div>
+        <div class="container2">
+            <div class="container2_caption">Sign up</div>
+            <div class="line1"></div>
+            <form id="form_sign">
+                <div class="form_input">
+                    <p><label for="first_name">First name<sup>*</sup></label></p>
+                    <p><input type="text" placeholder="First name" name="first_name" id="first_name" required autocomplete="on"></p>
+                    <p id="first_name_error" class="error_message">First name must contains from 3 to 20 characters</p>
+                </div>
+                <div class="form_input">
+                    <p><label for="last_name">Last name<sup>*</sup></label></p>
+                    <p><input type="text" placeholder="Last name" name="last_name" id="last_name" required autocomplete="on"></p>
+                    <p id="last_name_error" class="error_message">Last name must contains from 5 to 25 characters</p>
+                </div>
+                <div class="form_input">
+                    <p><label for="user_email">Your email<sup>*</sup></label></p>
+                    <p><input type="email" placeholder="Email adress" name="password" id="user_email" required autocomplete="on"></p>
+                    <p id="email_error" class="error_message">Email must contains from 5 to 30 characters, including @</p>
+                </div>
+                <div class="form_input">
+                    <p><label for="user_password">Create password<sup>*</sup></label></p>
+                    <p><input type="password" placeholder="Password" name="password" id="user_password" required autocomplete="on"></p>
+                    <p id="password_error" class="error_message">Password must contains from 8 to 30 characters(letters and numbers)</p>
+                </div>
+                <div class="buttons2">
+                    <button id="btn_sign_up">Create account</button>
+                    <button id="btn_clear">Clear</button>
+                </div>
+            </form>
+            <div class="container2_text">
+                Already a user?
+                <a href="login_page.html">Log in.</a>
+            </div>
+            <div class="container2_link">
+                Return to <a href="index.html">Main page</a>
+            </div>
+        </div>
+    </div>
+    <script src="src/script2.js" type="module"></script>   
+</body>
+</html>

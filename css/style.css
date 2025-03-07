@@ -1,0 +1,1542 @@
+.main{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    position:relative;
+    height:2230px;
+    background-color: aliceblue;
+}
+
+
+header{
+    width:100%;
+    height:120px;
+}
+
+.logo{width:20%;
+    height:120px;
+    position:absolute;
+    top:0px;
+    left:20px;}
+
+.logo>img{
+    width:50%;
+}
+
+.caption{width:60%;
+    height:80px;
+    position:absolute;
+    top:35px;
+    left:20%;
+    text-align:center;
+    color:darkred;
+    font-size:35px;
+    font-family:Garamond;
+}
+
+
+
+.main_image{
+    width:100%;
+    height:600px;
+    position:absolute;
+    top:205px;
+    left:0px;
+}
+
+.main_image>img{
+    width:100%;
+}
+
+.rectangle1{
+    width:45%;
+    height:120px;
+    background-color: white;
+    opacity:0.5;
+    position:absolute;
+    top: 300px;
+    left:10%;
+}
+
+.text1{
+    width:45%;
+    height:120px;
+    position:absolute;
+    top: 330px;
+    left:10%;
+    color:darkblue;
+    font-size:44px;
+    font-family: Garamond;
+    text-align: center;
+}
+
+
+nav{
+    width:100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position:absolute;
+    top:120px;
+    left:0px;
+    background-color:#12114F;}
+
+ul{
+    width:75%;
+    float:left;}
+
+li{
+    display:inline-block;
+    list-style-type: none;
+    width:20%;
+    text-align: center;
+    margin-left:3%;
+}
+
+nav li>a{
+    color:aliceblue;
+    font-size:22px;
+    font-family: Garamond;
+    text-decoration:none;
+}
+
+nav li>a:hover{
+    text-decoration: underline;
+}
+
+.block_buttons{
+    width:20%;
+    float:left;
+    margin-top:8px;}
+
+
+#btn_sign{
+    background-color:aliceblue;
+    padding:5px;
+    font-size:16px;
+    border:none;
+    border-radius:5px;
+    margin-right:10px;
+    }
+    
+ #btn_sign>a{
+    text-decoration:none;
+    color:#12114F;
+    }
+    
+    
+#btn_login{
+    background-color:aliceblue;
+    color:darkred;
+    padding:5px;
+    font-size:16px;
+    border:none;
+    border-radius:5px;
+}
+    
+ #btn_login>a{
+    text-decoration:none;
+    color:#12114F;
+}
+
+
+.caption1{
+    width:100%;
+    height:20px;
+    position: absolute;
+    top:850px;
+    left:0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:darkred;
+    font-size:44px;
+    font-style: bold;
+    font-family:Garamond;
+
+}
+
+.destination_countries{
+    width:100%;
+    height:500px;
+    position:absolute;
+    top:950px;
+    left:0px;
+}
+
+.destination_country{
+    width:21%;
+    height:200px;
+    float:left;
+    margin:2%;
+}
+
+.destination_country>img{
+    width:100%;
+}
+
+
+.country_caption{
+    width:100%;
+    font-size:20px;
+    margin-top:10px;
+    text-align: center;
+}
+
+
+.main_image1{
+    width:100%;
+    height:600px;
+    position:absolute;
+    top:1500px;
+    left:0px;
+}
+
+.main_image1>img{
+    width:100%;
+}
+
+
+.rectangle2{
+    width:35%;
+    height:300px;
+    background-color: white;
+    opacity:0.5;
+    position:absolute;
+    top: 1600px;
+    left:55%;
+}
+
+.text2{
+    width:35%;
+    height:300px;
+    position:absolute;
+    top: 1630px;
+    left:55%;
+    color:darkblue;
+    font-size:44px;
+    font-family: Garamond;
+    text-align: center;
+}
+
+
+.text3{
+    width:20%;
+    height:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:absolute;
+    top: 1780px;
+    left:65%;
+    background-color:darkred;
+    color:white;
+    font-size:34px;
+    font-family: Garamond;
+    text-align: center;
+}
+
+.text3>a{
+    color:white;
+    text-decoration: none;
+}
+
+
+footer{
+    width:90%;
+    height:30px;
+    padding-top: 30px;
+    padding-bottom:25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position:absolute;
+    top:2140px;
+    left:0px;
+    background-color: #12114F;
+    color:white;
+}
+
+
+.country_main{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    position:relative;
+    height:1900px;
+    background-color: aliceblue;
+}
+
+
+
+.main_image_country{
+    width:100%;
+    height:600px;
+    position:absolute;
+    top:205px;
+    left:0px;
+}
+
+.main_image_country>img{
+    width:100%;
+}
+
+.list_tours{
+    width:100%;
+    height:1100px;
+    position:absolute;
+    top:770px;
+    left:0px;
+    font-family: Garamond;
+}
+
+
+.tour_block{
+    width:30%;
+    height:510px;
+    margin-left:3%;
+    margin-top:30px;
+    background-color: white;
+    float:left;
+    border:1px solid lightslategrey;
+}
+
+.tour_block>img{
+    width:100%;
+    height:250px;
+}
+
+.tour_info{
+    width:50%;
+    height: 200px;
+    float:left;
+    margin-left:5%;
+}
+
+.tour_caption{
+    width:100%;
+    height:20px;
+    color:#12114F;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.tour_days, .tour_moves, .tour_towns, .tour_price, .tour_countries{
+    width:90%;
+    height:20px;
+    color:black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left:5%;
+    font-size: 18px;
+}
+
+
+
+
+.tour_btn{
+    width:30%;
+    padding:5px;
+    background-color:darkred;
+    color:white;
+    font-size:16px;
+    border:none;
+    border-radius: 5px;
+    margin-left:33%;
+    margin-top: 12px;
+}
+
+.tour_btn:hover{
+    cursor: pointer;
+}
+
+
+/* countries.html */
+
+.main1{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    position:relative;
+    height:2400px;
+    background-color: aliceblue;
+}
+
+
+.countries{
+    width:100%;
+    height:1450px;
+    position:absolute;
+    top:950px;
+    left:0px;
+}
+
+
+.block_country{
+    width:29%;
+    height:320px;
+    float:left;
+    margin:2%;
+}
+
+.block_country img{
+    width:100%;
+}
+
+
+.block_caption{
+    width:100%;
+    font-size:20px;
+    margin-top:10px;
+    text-align: center;
+}
+
+
+.block_caption>a{
+    color:black;
+    text-decoration: none;
+}
+
+.block_country a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+/* tours.html */
+
+.main2{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    position:relative;
+    height:2500px;
+    background-color: aliceblue;
+}
+
+
+.block1{
+    width:100%;
+    height: 1720px;
+    position: absolute;
+    top:735px;
+    left:0px;
+}
+
+.block_search{
+    width:20%;
+    height:1280px;
+    float:left;
+}
+
+.block_tours{
+    width:80%;
+    height:1650px;
+    float:left;
+    overflow: hidden;
+}
+
+.block_tours .tour_days, .tour_moves, .tour_towns, .tour_price, .tour_countries{
+    width:90%;
+    height:20px;
+    color:black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left:5%;
+    font-size: 15px;
+}
+
+.block_tours .tour_btn{
+    width:30%;
+    padding:7px;
+    background-color:darkred;
+    color:white;
+    font-size:14px;
+    border:none;
+    border-radius: 5px;
+    margin-left:33%;
+    margin-top: 15px;
+}
+
+.block_tours .tour_caption{
+    width:100%;
+    height:20px;
+    color:#12114F;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.category1{
+    width:90%;
+    height:580px;
+    position: absolute;
+    top:30px;
+}
+
+
+.category1_caption{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+    color:#12114F;
+}
+
+
+.category1 p{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:20px;
+}
+.category1 p:hover{
+    cursor:pointer;
+    color:black;
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+.category2{
+    width:90%;
+    height:450px;
+    position: absolute;
+    top:620px;
+}
+
+
+.category2_caption{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+    color:#12114F;
+}
+
+
+.category2 p{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:20px;
+}
+.category2 p:hover{
+    cursor:pointer;
+    color:black;
+}
+
+
+
+.category3{
+    width:90%;
+    height:200px;
+    position: absolute;
+    top:1080px;
+}
+
+
+.category3_caption{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+    color:#12114F;
+}
+
+
+.category3 p{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:20px;
+}
+.category3 p:hover{
+    cursor:pointer;
+    color:black;
+}
+
+
+.category4{
+    width:90%;
+    height:200px;
+    position: absolute;
+    top:1280px;
+}
+
+
+.category4_caption{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+    color:#12114F;
+}
+
+
+.category4 .tour_price_low{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:20px;
+}
+
+.category4 .tour_price_high{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:25px;
+}
+
+.category4 .tour_price{
+    margin-left:5%;
+    font-size:18px;
+    color:#404040;
+    margin-top:19px;
+}
+
+
+.category4 p:hover{
+    cursor:pointer;
+    color:black;
+}
+
+
+
+
+.for_button{
+    width:100%;
+    height:70px;
+    position: relative;
+    top:1700px;
+    left:0px;
+}
+
+#btn_load{
+    width:10%;
+    font-size:16px;
+    background-color:#12114F;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    padding:10px;
+    position: absolute;
+    top:0px;
+    left:55%;
+}
+
+
+#btn_load:hover{
+    cursor:pointer;
+}
+
+
+.active{
+    text-decoration: underline;
+}
+
+
+/* Sign Up */
+
+.main3{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    position:relative;
+    height:820px;
+    background-color: aliceblue;
+}
+
+
+.container1{
+    width:42%;
+    height:820px;
+    background-color:#12114F;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.container1_caption{
+    width:100%;
+    height:30px;
+    position: absolute;
+    top:50px;
+    left:0px;
+    font-size:32px;
+    color:white;
+    text-align: center;
+}
+
+.container1_image1{
+    width:100%;
+    height:300px;
+    position:absolute;
+    top:180px;
+    left:0px;
+}
+
+.container1_image1>img{
+    width:60%;
+    position: absolute;
+    top:20px;
+    left:20%;
+}
+
+.container1_image2{
+    width:100%;
+    height:300px;
+    position:absolute;
+    top:450px;
+    left:0px;
+}
+
+.container1_image2>img{
+    width:80%;
+    position: absolute;
+    top:10px;
+    left:10%;
+}
+
+.container2{
+    width:58%;
+    height:820px;
+    position:absolute;
+    top:0px;
+    left:42%;
+}
+
+.container2_caption{
+    width:100%;
+    height:30px;
+    position: absolute;
+    top:45px;
+    left:0px;
+    font-size:32px;
+    color:#12114F;
+    text-align: center;
+}
+
+.line1{
+    width:80%;
+    height:1px;
+    background-color:#C6BDB6;
+    position:absolute;
+    top:100px;
+    left:10%;
+}
+
+#form_sign{
+    width:70%;
+    height:500px;
+    position:absolute;
+    top:120px;
+    left:14%;
+}
+
+
+#form_sign>label{
+    font-size:18px;
+    font-weight:bold;
+    color:#233048;
+}
+
+#form_sign input[type="text"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+#form_sign input::placeholder{
+    color:gray;
+}
+
+.buttons2{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    position:absolute;
+    top:510px;
+    left:0px;
+}
+
+
+#btn_sign_up{
+	width:35%;
+	padding:1%;
+    background-color:darkred;
+    color:white;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:20%;
+}
+
+#btn_sign_up:hover{
+	cursor: pointer;
+}
+
+#btn_clear{
+	width:20%;
+	padding:1%;
+	background-color:#12114F;
+    border:none;
+	font-weight: bold;
+    color:white;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:60%;
+}
+
+#btn_clear:hover{
+	cursor: pointer;
+}
+
+input[type="email"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+input[type="password"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+input:focus{
+    outline: none;
+    border:1px solid darkred;
+}
+
+
+.container2_text{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:710px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:#12114F;
+}
+
+
+.container2_text>a{
+    color:#12114F;
+}
+
+
+
+.container2_link{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:750px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container2_link>a{
+    color:#12114F;
+}
+
+
+.error_message{
+    color:darkred;
+    margin-top:-5px;
+}
+
+#first_name_error{
+    display: none;
+}
+
+#last_name_error{
+    display: none;
+}
+
+#email_error{
+    display: none;
+}
+
+
+#password_error{
+    display: none;
+}
+
+/* Log In */
+
+.main4{
+    width:100%;
+    max-width:1200px;
+    height:700px;
+    background-color:aliceblue;
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+.container3{
+    width:50%;
+    height:500px;
+    background-color:white;
+    position:absolute;
+    top:100px;
+    left:25%;
+    border-radius: 10px;
+    border:5px solid darkblue;
+}
+
+
+#form_login{
+    width:80%;
+    height:260px;
+    border-radius:20px;
+    position:absolute;
+    top:120px;
+    left:10%;
+}
+
+#form_login>label{
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+}
+
+#form_login>input[type="text"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+#form_login>input::placeholder{
+    color:gray;
+}
+
+
+.buttons{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    position:absolute;
+    top:190px;
+    left:0px;
+}
+
+
+#btn_log_in{
+	width:20%;
+	padding:1%;
+    background-color:darkred;
+    color:white;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:20%;
+}
+
+#btn_log_in:hover{
+	cursor: pointer;
+}
+
+#btn_clear{
+	width:20%;
+	padding:1%;
+	background-color:#12114F;
+    border:none;
+	font-weight: bold;
+    color:white;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:60%;
+}
+
+#btn_clear:hover{
+	cursor: pointer;
+}
+
+
+
+.container3_caption{
+    width:100%;
+    height:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#12114F;
+    text-align:center;
+    font-size:34px;
+    position:absolute;
+    top:20px;
+    left:0px;
+}
+
+
+.container3_text{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:420px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:black;
+}
+
+
+.container3_text>a{
+    color:#233048;
+}
+
+
+
+.container3_link{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:460px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container3_link>a{
+    color:#233048;
+}
+
+.main5{
+    width:100%;
+    max-width:1200px;
+    height:1000px;
+    background-color:aliceblue;
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+#log_out{
+    background-color:aliceblue;
+    padding:5px;
+    font-size:16px;
+    border:none;
+    border-radius:5px;
+    margin-right:10px;
+    margin-top: 5px;
+    }
+    
+ #log_out>a{
+    text-decoration:none;
+    color:#12114F;
+    }
+
+
+
+
+.container4{
+    width:100%;
+    height:800px;
+    position:absolute;
+    top:200px;
+    left:0px;
+}
+
+
+.container4_block1{
+    width:17%;
+    height:300px;
+    position:absolute;
+    top:40px;
+    left:20px;
+    z-index:5;
+}
+
+
+.container4_block1>img{
+    width:90%;
+}
+
+
+
+.container4_block2{
+    width:90%;
+    height:720px;
+    position:absolute;
+    top:40px;
+    left:5%;
+    z-index:4;
+}
+
+
+
+.container4_block2_caption{
+    width:60%;
+    height:30px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-align:center;
+    font-size:34px;
+    font-style: italic;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container4_block2_button{
+    width:40%;
+    height:50px;
+    position: absolute;
+    top:0px;
+    left:60%;
+}
+
+#show_orders{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color:#12114F;
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    top:10px;
+    left:10%;
+}
+
+#show_orders:hover{
+    cursor: pointer;
+}
+
+
+.rectangle{
+    width:100%;
+    height: 70px;
+    background-color:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    top:200px;
+    left:0%;
+}
+
+.block_caption1{
+    width:20%;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    color:darkred;
+    float:left;
+    padding-top: 10px;
+}
+
+.block_price{
+    width:12%;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    color:darkred;
+    float:left;
+    padding-top: 10px;
+}
+
+.block_name{
+    width:16%;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    color:darkred;
+    float:left;
+    padding-top: 10px;
+}
+
+.block_surname{
+    width:18%;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    color:darkred;
+    float:left;
+    padding-top: 10px;
+}
+
+.block_phone{
+    width:18%;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    color:darkred;
+    float:left;
+    padding-top: 10px;
+}
+
+
+.block_email{
+    width:16%;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    color:darkred;
+    float:left;
+    padding-top: 10px;
+}
+
+.line{
+    width:90%;
+    height:1px;
+    position: absolute;
+    top:50px;
+    left:5%;
+    background-color: #D0BCA8;
+}
+
+
+.agent_orders{
+    width:100%;
+    position:absolute;
+    top:270px;
+    left:0%;
+    background-color:white;
+}
+
+
+.new_order{
+    width:100%;
+    height:30px;
+    color:black;
+    background-color:white;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+.new_order_caption{
+    width:20%;
+    float:left;
+    text-align: center;
+    padding-top:5px;
+}
+
+.new_order_price{
+    width:12%;
+    float:left;
+    text-align: center;
+    padding-top:5px;
+}
+
+
+.new_order_name{
+    width:16%;
+    float:left;
+    text-align: center;
+    padding-top:5px;
+}
+
+.new_order_surname{
+    width:18%;
+    float:left;
+    text-align: center;
+    padding-top:5px;
+}
+
+.new_order_phone{
+    width:18%;
+    float:left;
+    text-align: center;
+    padding-top:5px;
+}
+
+.new_order_email{
+    width:16%;
+    float:left;
+    text-align: center;
+    padding-top:5px;
+}
+
+
+
+.block_form{
+    width:46%;
+    height:540px;
+    position:fixed;
+    top: 2%;
+    left: 27%;
+    background-color: white;
+    border-radius:10px;
+    border:2px solid darkgray;
+    display: none;
+}
+
+
+.tour_caption1{
+    width:90%;
+    height:20px;
+    position:absolute;
+    top:10px;
+    left:5%;
+    font-size:22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:darkred;
+    font-weight: bold;
+}
+
+.tour_price1{
+    width:90%;
+    height:30px;
+    position:absolute;
+    top:50px;
+    left:5%;
+    font-size:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.block_form_caption{
+    width:100%;
+    height:20px;
+    text-align: center;
+    position: absolute;
+    top:100px;
+    left:0px;
+    font-size:20px;
+    color:grey;
+}
+
+#form_order{
+    width:90%;
+    height:420px;
+    position: absolute;
+    top:120px;
+    left:5%;
+}
+
+
+#form_order>label{
+    font-size:18px;
+    font-weight:bold;
+    color:#233048;
+}
+
+#form_order input[type="text"]{
+	width:90%;
+	height: 20px;
+	border:1px solid #C6BDB6;
+    padding:8px;
+}
+
+#form_order input[type="email"]{
+	width:90%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+
+#form_order input[type="tel"]{
+	width:90%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+
+#form_order input::placeholder{
+    color:gray;
+}
+
+
+
+.form_buttons{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    position:absolute;
+    top:350px;
+    left:0px;
+}
+
+
+#btn_submit{
+	width:20%;
+	padding:1%;
+    background-color:darkred;
+    color:white;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:20%;
+}
+
+#btn_submit:hover{
+	cursor: pointer;
+}
+
+#btn_clear{
+	width:20%;
+	padding:1%;
+	background-color:#12114F;
+    border:none;
+	font-weight: bold;
+    color:white;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:60%;
+}
+
+#btn_clear:hover{
+	cursor: pointer;
+}
+
+
+.close_modal{
+    position: absolute;
+    right:2%;
+    top:2%;
+    font-size:26px;
+    font-weight: bold;
+}
+
+.close_modal:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* Contacts */
+
+.main6{
+    width:100%;
+    max-width:1200px;
+    height:1500px;
+    background-color:aliceblue;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.block_contacts{
+    width:100%;
+    max-width:1200px;
+    height:750px;
+    position:absolute;
+    top:750px;
+    left:0px;
+}
+
+
+
+
+.block_contacts1{
+    width:50%;
+    max-width:1200px;
+    height:720px;
+    position:absolute;
+    top:12px;
+    left:0px;
+}
+
+.caption_1{
+    width:100%;
+    height:50px;
+    position: absolute;
+    top:60px;
+    left:0px;
+    font-size:30px;
+    color:darkred;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block_adress{
+    width:100%;
+    height:50px;
+    position: absolute;
+    top:130px;
+    left:0px;
+    font-size:24px;
+    text-align: center;
+}
+
+
+.block_image{
+    width:80%;
+    height:300px;
+    position:absolute;
+    top:230px;
+    left:10%;
+    background-color: chocolate;
+}
+
+.block_image>img{
+    width:100%;
+}
+
+
+
+.block_contacts2{
+    width:50%;
+    max-width:1200px;
+    height:720px;
+    position:absolute;
+    top:10px;
+    left:50%;
+}
+
+
+.block_email1{
+    width:100%;
+    height:50px;
+    position: absolute;
+    top:120px;
+    left:0px;
+    font-size:24px;
+    text-align: center;
+    color:black;
+}
